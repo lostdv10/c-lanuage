@@ -20,6 +20,9 @@ int main(){
   }
   if(!(score>=60))
     printf("不及格\n");
+  if(0.0){
+    printf("hello\n");
+  }
 
 
   return 0;
