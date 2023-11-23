@@ -20,7 +20,7 @@ int main(){
   int age2=0;
   double score2=0;
 
-  sscanf(str1,"我叫%s,我今年%d岁，成绩为%f",str3,&age2,&score2);
+  sscanf(str1,"我叫%s,我今年%d岁，成绩为%f",str3,&age2,&score2);//%s默认将后面所有当作字符串，除非用%数字s
   printf("222我q叫%s,我今年%d岁，成绩为%.3f\n",str3,age2,score2);
 
 return 0;

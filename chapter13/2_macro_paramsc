@@ -1,0 +1,15 @@
+#include <stdio.h>
+#define MAX(a,b) (a>b)?a:b
+
+int max(int a,int b){
+  return a>b?a:b;
+}
+
+
+
+int main(){
+  int a=112,b=35;
+  int result=MAX(a,b);
+  printf("result=%d\n",result);
+  return 0;
+}
