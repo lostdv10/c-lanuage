@@ -8,8 +8,11 @@ int main(){
   int (*fp)(int,int)=max;
   //通过函数指针调用函数
   int a=19,b=56;
-  int result = (*fp)(a,b);
-  printf("max(a,b):%d\n",result);
+  int result0 = (*fp)(a,b);
+  int result1 = fp(a,b);
+  // (*fp)(a,b)可简写为fp(a,b);fp为函数指针
+  printf("max(a,b):%d,%d\n",result0,result1);
+  getchar();
   return 0;
 }
 
